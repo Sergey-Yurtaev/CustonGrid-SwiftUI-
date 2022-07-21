@@ -11,6 +11,10 @@
 		A1AB687028897F8000875290 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AB686F28897F8000875290 /* ContentView.swift */; };
 		A1AB687228897F8100875290 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1AB687128897F8100875290 /* Assets.xcassets */; };
 		A1AB687528897F8100875290 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1AB687428897F8100875290 /* Preview Assets.xcassets */; };
+		A1AB687C2889810A00875290 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AB687B2889810A00875290 /* TabView.swift */; };
+		A1AB68802889813A00875290 /* HorizontalGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AB687F2889813A00875290 /* HorizontalGridView.swift */; };
+		A1AB6884288981AE00875290 /* CustonGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AB6883288981AE00875290 /* CustonGridView.swift */; };
+		A1AB6886288982B300875290 /* VerticalGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AB6885288982B300875290 /* VerticalGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		A1AB686F28897F8000875290 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A1AB687128897F8100875290 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1AB687428897F8100875290 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1AB687B2889810A00875290 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		A1AB687F2889813A00875290 /* HorizontalGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalGridView.swift; sourceTree = "<group>"; };
+		A1AB6883288981AE00875290 /* CustonGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustonGridView.swift; sourceTree = "<group>"; };
+		A1AB6885288982B300875290 /* VerticalGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				A1AB686D28897F8000875290 /* CustonGrid_SwiftUI_App.swift */,
 				A1AB686F28897F8000875290 /* ContentView.swift */,
+				A1AB687B2889810A00875290 /* TabView.swift */,
+				A1AB6885288982B300875290 /* VerticalGridView.swift */,
+				A1AB687F2889813A00875290 /* HorizontalGridView.swift */,
+				A1AB6883288981AE00875290 /* CustonGridView.swift */,
 				A1AB687128897F8100875290 /* Assets.xcassets */,
 				A1AB687328897F8100875290 /* Preview Content */,
 			);
@@ -138,6 +150,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1AB687028897F8000875290 /* ContentView.swift in Sources */,
+				A1AB6886288982B300875290 /* VerticalGridView.swift in Sources */,
+				A1AB6884288981AE00875290 /* CustonGridView.swift in Sources */,
+				A1AB687C2889810A00875290 /* TabView.swift in Sources */,
+				A1AB68802889813A00875290 /* HorizontalGridView.swift in Sources */,
 				A1AB686E28897F8000875290 /* CustonGrid_SwiftUI_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
